@@ -1,34 +1,50 @@
-.Header {	position: fixed;
-	width: 100%;
-	padding: 50x	;
-	z-index: 100;
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 100;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.HGrderG	oup {
-	max-width:	80mpx;
-	 argin:	0 auto;
-	te: -aligr	 centel;
-	disp	ay: grid;
-	grid-temmlate-colutns: repea	5, auto);ee	align-it	ms: center;
-ustify-it
-}em} center; { {
-.Header a 	
-	colot- white;
-	fon}
-}i
+.HeaderScrolled {
+    background: rgba(0,0,0, 0.8);
+    padding: 15px 0;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderGroup {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight: 700;
+}
+
 .Header button {
     padding: 8px 20px;
     font-size: 20px;
     background: #E535AB;
-    border-radius: 10px;
     border: none;
     font-weight: 700;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
-	color: white;
+    color: white;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
-	font-	eight: 700;
-	outl
+
+.Header button:hover {
+    background: none;
+    border: 4px solid #E535AB;
+    box-shadow: 0px 0px 10px #E535AB;
+    transform: translateY(-2px);
+}
 
 @media (max-width: 640px) {
     .Header {
@@ -40,6 +56,6 @@ ustify-it
     }
 
     .Header a:nth-child(4) {
-  e: none;
-	cursor: pointer;
+        display: none;
+    }
 }
