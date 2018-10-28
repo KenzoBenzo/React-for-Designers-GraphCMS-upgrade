@@ -1,0 +1,67 @@
+.SectionGroup {
+	margin: 100px 0 0;
+	background: url('https://cl.ly/22de8cf761a2/download/wallpaper4.jpg');
+	background-size: cover;
+	height: 720px;
+	display: grid;
+	grid-template-rows: 300px auto;
+	grid-gap: 20px;
+	position: relative;
+}
+
+.WaveBottom {
+	position: absolute;
+    width: 100%;
+    bottom: -6px;
+}
+
+.WaveTop {
+	position: absolute;
+    width: 100%;
+    top: -6px;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 640px) {
+	.SectionGroup{
+			height: 820px;
+	}
+}
+
+.SectionLogo {
+	width: 128px;
+	margin: 0 auto;
+	align-self: end;
+}
+
+.SectionTitleGroup {
+	max-width: 800px;
+	margin: 0 40px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 300px auto;
+	grid-template-rows: auto 100%;
+}
+
+@media (max-width: 720px) {
+	.SectionTitleGroup{
+			grid-template-columns: 1fr;
+	}
+}
+
+.SectionTitle {
+	color: white;
+	font-size: 60px;
+	margin: 0;
+	line-height: 1.2;
+}
+
+@media (max-width: 640px) {
+	.SectionTitle {
+			font-size: 40px;
+	}
+}
+
+.SectionText {
+	color: white;
+}

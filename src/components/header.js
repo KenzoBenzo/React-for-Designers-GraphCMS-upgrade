@@ -30,10 +30,10 @@ class Header extends React.Component {
 			<div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
 				<div className="HeaderGroup">
 					<Link to="/"><img src="https://cl.ly/58bce134a02c/download/GCMS%20logo.png" height="30px"/></Link>
-					<Link to="https://docs.graphcms.com/tutorials/">Tutorials</Link>
-					<Link to="https://github.com/KenzoBenzo/React-for-Designers-GraphCMS-upgrade">Source Code</Link>
+					<a href="https://docs.graphcms.com/tutorials/" target="_blank">Tutorials</a>
+					<a href="https://github.com/KenzoBenzo/React-for-Designers-GraphCMS-upgrade" target="_blank">Source Code</a>
 					<Link to="/page-2">Help</Link>
-					<Link to="https://app.graphcms.com/signup"><button>Try Now!</button></Link>
+					<button><a href="https://app.graphcms.com/signup" target="_blank">Try Now!</a></button>
 				</div>
 			</div>
 		)
