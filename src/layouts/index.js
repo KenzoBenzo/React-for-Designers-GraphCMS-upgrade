@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
     />
     <Header />
     {children()}
-    <Footer links={data}>
+    <Footer data={data}>
        Our mission is to take Headless CMS to the next level.<a href="mailto:jesse@graphcms.com">Email us</a> to ask anything GraphCMS GmbH © 2018
     </Footer>
   </div>

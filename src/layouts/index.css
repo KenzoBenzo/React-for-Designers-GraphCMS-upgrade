@@ -107,11 +107,9 @@ a {
 @media (max-width: 640px) {
   .Hero .Logos {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .HeroGroup {
+	}
+	
+	.HeroGroup {
     padding: 100px 20px;
   }
 

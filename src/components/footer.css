@@ -3,6 +3,7 @@
     padding: 50px 0;
     display: grid;
     grid-gap: 20px;
+    width: 100%;
 }
 
 .FooterText {
@@ -11,6 +12,7 @@
     color: #486791;
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
 button {
@@ -37,6 +39,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+    text-align: center;
 }
 
 .LinkGroup a {
@@ -56,4 +59,6 @@ button:hover {
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 800px;
+    text-align: center;
 }
